@@ -1,0 +1,5 @@
+[project]
+name = "forgeproof-uat-v120"
+version = "0.1.0"
+description = "Scratch project for ForgeProof v1.2.0 UAT"
+requires-python = ">=3.9"

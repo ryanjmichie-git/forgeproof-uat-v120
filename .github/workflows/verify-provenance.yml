@@ -1,0 +1,16 @@
+name: verify-provenance
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  forgeproof-verify:
+    name: forgeproof-verify
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ryanjmichie-git/forgeproof-verify@633444e1d77925dfb544c5f146c3289e4ebfd598
