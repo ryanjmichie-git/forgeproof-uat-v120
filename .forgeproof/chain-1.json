@@ -1,0 +1,100 @@
+[
+  {
+    "index": 0,
+    "timestamp": "2026-07-12T08:24:19.803116+00:00",
+    "action": "genesis",
+    "data": {
+      "issue": 1,
+      "title": "Add subtract function",
+      "requirements": [
+        "REQ-1: calc.py provides subtract(a, b) returning a - b, covered by a test asserting subtract(5, 3) == 2"
+      ]
+    },
+    "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "hash": "18ecab12f8fd364e6b4c7221bd5295599c87ddd89a4ff48875abec5860ae524a",
+    "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgRFBoLr2tlGgp6HV7QKEf90U1+8\nAwZYTR55xVEnvzjxcAAAAKZm9yZ2Vwcm9vZgAAAAAAAAAGc2hhNTEyAAAAUwAAAAtzc2gt\nZWQyNTUxOQAAAEBi+NlmC3Tun8Dv3OY7JgKNOX8269uKgh9p8wLUcBNqODAtyAcOnHGQny\nWuUS5537MpZ6T9jpOXignUg3h3Ul4B\n-----END SSH SIGNATURE-----"
+  },
+  {
+    "index": 1,
+    "timestamp": "2026-07-12T08:24:37.219757+00:00",
+    "action": "branch-create",
+    "data": {
+      "branch": "forgeproof/1",
+      "base": "main",
+      "base_sha": "a2e54459eb05bed7364f9251e6b69d492ff6b033"
+    },
+    "prev_hash": "18ecab12f8fd364e6b4c7221bd5295599c87ddd89a4ff48875abec5860ae524a",
+    "hash": "6480fbd6a5446be2fbaa12858e70d5fa5cc5b95f9fd2098341f3f4e7c5017869",
+    "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgRFBoLr2tlGgp6HV7QKEf90U1+8\nAwZYTR55xVEnvzjxcAAAAKZm9yZ2Vwcm9vZgAAAAAAAAAGc2hhNTEyAAAAUwAAAAtzc2gt\nZWQyNTUxOQAAAEC2nqoApsa5cWCG2+uJFrIOUAZ0GLxFVRIQxT9E5mxWtxm1p8aNTIZUUB\n/0THYwXG317rU/yHcpDs8jucVsCmIF\n-----END SSH SIGNATURE-----"
+  },
+  {
+    "index": 2,
+    "timestamp": "2026-07-12T08:48:32.692841+00:00",
+    "action": "file-edit",
+    "data": {
+      "path": "calc.py",
+      "operation": "modify",
+      "sha256": "0a8a480ce97f41f5d788eb470c5fb833a67f7c0948fd4996790ebe55eaca0ba5"
+    },
+    "prev_hash": "6480fbd6a5446be2fbaa12858e70d5fa5cc5b95f9fd2098341f3f4e7c5017869",
+    "hash": "198a2db2a0fdfb6d80aa48d7d457c63ef570fbb39b2afae59bd997c68b7f973e",
+    "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgRFBoLr2tlGgp6HV7QKEf90U1+8\nAwZYTR55xVEnvzjxcAAAAKZm9yZ2Vwcm9vZgAAAAAAAAAGc2hhNTEyAAAAUwAAAAtzc2gt\nZWQyNTUxOQAAAEB0BcQneIsYVTQLm78AzgahHtfl9NWGK3A7Patexm+G7k6VSdEPMVO4yJ\nPMFnb50BH4CQx5CFeC1OcF/NumdT4G\n-----END SSH SIGNATURE-----"
+  },
+  {
+    "index": 3,
+    "timestamp": "2026-07-12T08:48:32.852887+00:00",
+    "action": "file-edit",
+    "data": {
+      "path": "test_calc.py",
+      "operation": "modify",
+      "sha256": "9936568c21dd7837fdd2b795e8cec8a98db8ec7f14211764a6f1f5cc3a564a33"
+    },
+    "prev_hash": "198a2db2a0fdfb6d80aa48d7d457c63ef570fbb39b2afae59bd997c68b7f973e",
+    "hash": "0dd832178facc4a7b11ce532c715b9e3c57be0d73f8317eb7e6c59e51a3fb510",
+    "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgRFBoLr2tlGgp6HV7QKEf90U1+8\nAwZYTR55xVEnvzjxcAAAAKZm9yZ2Vwcm9vZgAAAAAAAAAGc2hhNTEyAAAAUwAAAAtzc2gt\nZWQyNTUxOQAAAECAwF0SnTi1qqJRdZrN4PTH3iCDodft5WTWvGdbXIXZoECL1H37Wm/RN3\nL1cyAgVZ0kdf3B7ZMPor6DUm0AMgQP\n-----END SSH SIGNATURE-----"
+  },
+  {
+    "index": 4,
+    "timestamp": "2026-07-12T08:48:50.251932+00:00",
+    "action": "test-result",
+    "data": {
+      "suite": "pytest",
+      "passed": 2,
+      "failed": 0,
+      "coverage": {
+        "REQ-1": [
+          "test_subtract"
+        ]
+      },
+      "failed_tests": []
+    },
+    "prev_hash": "0dd832178facc4a7b11ce532c715b9e3c57be0d73f8317eb7e6c59e51a3fb510",
+    "hash": "bc4f5239a215fbbaf42d19e137b3ccd0f2e1a37d974e6bad71555621a13fbc91",
+    "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgRFBoLr2tlGgp6HV7QKEf90U1+8\nAwZYTR55xVEnvzjxcAAAAKZm9yZ2Vwcm9vZgAAAAAAAAAGc2hhNTEyAAAAUwAAAAtzc2gt\nZWQyNTUxOQAAAEDIHPTcSFnPvf1YvaZKbB/jcEx/dFJOZkvELqV6T0fKhh+rgzix9+nIQR\nGKOwoChysndzPgpZJg2Xzf+v8qF4UI\n-----END SSH SIGNATURE-----"
+  },
+  {
+    "index": 5,
+    "timestamp": "2026-07-12T08:48:50.412047+00:00",
+    "action": "lint-result",
+    "data": {
+      "tool": "ruff",
+      "errors": 0,
+      "warnings": 0
+    },
+    "prev_hash": "bc4f5239a215fbbaf42d19e137b3ccd0f2e1a37d974e6bad71555621a13fbc91",
+    "hash": "92c140088e1cf8438f35dd1d2c7b8ad3e70c2c611c0bda7dba58f3a37bb3b490",
+    "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgRFBoLr2tlGgp6HV7QKEf90U1+8\nAwZYTR55xVEnvzjxcAAAAKZm9yZ2Vwcm9vZgAAAAAAAAAGc2hhNTEyAAAAUwAAAAtzc2gt\nZWQyNTUxOQAAAEAMysfhKDGxn612h/G0CrkwDAJAsQr6RYfq5FbyjQSMM3FkNULIodB5vr\ns6tDHrbCHjmw2P55wnIWY/xi5DBcIB\n-----END SSH SIGNATURE-----"
+  },
+  {
+    "index": 6,
+    "timestamp": "2026-07-12T08:49:04.979025+00:00",
+    "action": "finalize",
+    "data": {
+      "commit_sha": "7fa2f3a2174462d421fbcb5fb23ff76464cfc5b1",
+      "chain_length": 7
+    },
+    "prev_hash": "92c140088e1cf8438f35dd1d2c7b8ad3e70c2c611c0bda7dba58f3a37bb3b490",
+    "hash": "e1849b6a168f8362b7d892ae2b5be65346d2e72a5851ab04e8b0953b88ff07b3",
+    "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgRFBoLr2tlGgp6HV7QKEf90U1+8\nAwZYTR55xVEnvzjxcAAAAKZm9yZ2Vwcm9vZgAAAAAAAAAGc2hhNTEyAAAAUwAAAAtzc2gt\nZWQyNTUxOQAAAEAK37b/5bcVsOZrv1nSLbVtlxLeYVVse3Jcy3IPptYoIxKrviNP1mqU4y\nYFOl1SDeFoAFWlFRHuN1HJ1EYSex4P\n-----END SSH SIGNATURE-----"
+  }
+]
